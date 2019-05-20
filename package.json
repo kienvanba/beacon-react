@@ -1,0 +1,32 @@
+{
+  "name": "FirstProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.59.6",
+    "react-native-beacons-manager": "^1.0.7",
+    "react-native-canvas": "^0.1.32",
+    "react-native-gesture-handler": "^1.2.1",
+    "react-native-svg": "^9.4.0",
+    "react-navigation": "^3.9.1",
+    "react-redux": "^7.0.3",
+    "watchman": "^1.0.0",
+    "yarn": "^1.15.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.4",
+    "@babel/runtime": "7.4.4",
+    "babel-jest": "24.7.1",
+    "jest": "24.7.1",
+    "metro-react-native-babel-preset": "0.54.0",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
